@@ -1,0 +1,16 @@
+h4,
+h5,
+h6 {
+  color: chocolate;
+  background-color: black;
+  text-align: center;
+}
+p {
+  color: rgb(182, 9, 95);
+  background-color: gainsboro;
+  text-align: right;
+}
+h1{
+    color: black;
+    background-color: beige;
+}
