@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 3px solid yellow;
+            display: grid;
+            /* grid-template-columns: 200px 200px 150px; */
+            grid-template-columns: auto auto ;
+            /* grid-template-columns: 300px 400px auto; */
+            /* grid-template-columns: 500px auto auto; */
+            /* grid-template-columns: 100px auto; */
+            /* grid-template-columns: auto auto auto auto; */
+            grid-template-rows: 50px 60px 70px  ;
+            grid-gap: 3px;
+            /* grid-column-gap: 4px;
+            grid-row-gap: 4px; */
+           
+
+        }
+
+        #item1 {
+            background-color: rgb(120, 104, 226);
+        }
+        #item1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+            
+        }
+        
+
+        #item2 {
+            background-color: rgb(156, 149, 204);
+            
+        }
+
+        #item3 {
+            background-color: rgb(214, 164, 103);
+        }
+
+        #item4 {
+            background-color: rgb(129, 71, 102);
+           
+        }
+        #item4{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        #item5 {
+            background-color: rgb(58, 139, 139);
+        }
+
+        #item6 {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti minima eius natus aut. Eaque dolor iusto sapiente veritatis officia minima sunt velit, incidunt reiciendis nesciunt voluptatem, at voluptas adipisci commodi!</div>
+        <div class="item" id="item2">jasmuddin</div>
+        <div class="item" id="item3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam nobis nisi vitae corrupti quos voluptatibus iure. Quae explicabo temporibus provident accusantium inventore commodi ducimus possimus iste. Enim corrupti cupiditate hic.</div>
+        <div class="item" id="item4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi culpa fugit dolorum quia ipsum sit rem assumenda consectetur saepe optio amet explicabo laborum exercitationem, aspernatur perspiciatis et aliquid obcaecati!</div>
+        <div class="item" id="item5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt numquam fugiat expedita adipisci quidem, enim veniam totam excepturi autem, repellendus minima delectus modi corrupti nam repudiandae facere laboriosam culpa sapiente.</div>
+        <div class="item" id="item6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis cumque tempora blanditiis quibusdam iure amet repellendus labore reiciendis ipsum dicta, porro dolores illo eos nostrum odit expedita optio ad.</div>
+    </div>
+    <div class="container1">
+        <div class="tem">1</div>
+        <div class="tem">2</div>
+        <div class="tem">3</div>
+        <div class="tem">4</div>
+        <div class="tem">5</div>
+        <div class="tem">6</div>
+        <div class="tem">7</div>
+        <div class="tem">8</div>
+        <div class="tem">9</div>
+    </div>
+</body>
+
+</html>
