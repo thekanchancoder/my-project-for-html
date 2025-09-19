@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mydiv {
+            width: 500px;
+            height: 500px;
+            background-color: brown;
+            transition-property: background-color;
+            transition-property: width, height, background-color, color;
+            transition-duration: 3s, 3s, 3s, 3s;
+            color: yellow;
+            transition-delay: 1s;
+            transition-timing-function: steps(5);
+
+            /* transition-duration: 4s;
+            transition-delay: 2s;
+            transition-timing-function: ease-in; */
+            /* transition: background-color 4s 2s ease; */
+        }
+
+        .mydiv:hover {
+            /* background-color: cadetblue; */
+            width: 700px;
+            height: 700px;
+            background-color: cadetblue;
+            color: blue;
+        }
+
+        .Idiv {
+            width: 100px;
+            height: 100px;
+            background-color: darkcyan;
+            transition-property: width ,background-color,color;
+            transition-duration: 3s;
+            margin: 6px;
+            color: orangered;
+        }
+
+        .Idiv:hover {
+            width: 300px;
+            background-color: darkgoldenrod;
+color: chartreuse;
+        }
+
+        #Idiv1 {
+            transition-timing-function: ease;
+           
+           
+        }
+
+        #Idiv2 {
+            transition-timing-function: ease-in;
+            
+        }
+
+        #Idiv3 {
+            transition-timing-function: ease-out;
+           
+        }
+
+        #Idiv4 {
+            transition-timing-function: linear;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mydiv">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum reprehenderit assumenda earum enim natus nobis
+        sint illo ipsa dolore officia, qui temporibus, corporis dignissimos magnam quam iusto cumque repellat tempora
+        doloribus hic eum atque corrupti est? Saepe ullam eaque repellat asperiores ut, voluptas fuga soluta placeat
+        iste quam. Laboriosam doloribus veritatis eligendi aspernatur iure nisi modi in, ex excepturi, culpa corrupti
+        asperiores voluptatibus exercitationem atque soluta aperiam quis reiciendis. Dolorum debitis veritatis
+        perspiciatis aliquam non odio, corrupti libero laborum animi, deserunt officiis architecto distinctio molestias
+        dolor vel autem recusandae vitae neque culpa nesciunt laboriosam eligendi temporibus voluptates nemo. Nihil
+        accusamus iusto nostrum, aliquid recusandae vitae ex ab laboriosam dignissimos. Aut sequi similique, accusamus
+        praesentium necessitatibus ab repudiandae mollitia laboriosam harum aliquid eaque dolore velit. Suscipit
+        voluptatem eligendi iste qui, tempora sed! Adipisci autem vel saepe ratione? Fugiat cupiditate, animi suscipit
+        quo ducimus qui tenetur atque neque soluta incidunt velit exercitationem dolorum ipsum labore reiciendis.
+        Quidem, sed tenetur sapiente quo quam vel adipisci amet similique reprehenderit quae voluptas rem tempore rerum
+        dolore debitis ut natus voluptatem? Voluptatem dignissimos maiores voluptates eveniet debitis minima sunt
+        placeat quis, est voluptatibus error nam saepe eligendi provident at explicabo? Maiores non et aperiam tempora
+        magnam.
+    </div>
+    <div class="Idiv" id="IDIV1">ease</div>
+    <div class="Idiv" id="IDIV2">ease-in</div>
+    <div class="Idiv" id="IDIV3">ease-out</div>
+    <div class="Idiv" id="IDIV4">linear</div>
+</body>
+
+</html>

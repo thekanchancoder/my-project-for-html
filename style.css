@@ -1,0 +1,26 @@
+.MENUBAR li{
+    list-style: none;
+    float: left;
+   margin-left: 60px;
+   margin-right: 60px;
+}
+.MENUBAR li a{text-decoration: none;
+    color: mediumvioletred;
+    padding: 4px 4px;
+    
+
+}
+.MENUBAR li a:hover{
+    color: dodgerblue;
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#footer{
+    color: rgb(50, 204, 158);
+  background-color: rgb(38, 115, 151);  
+}
