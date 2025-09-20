@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%px;
+            height: 900px;
+            border: 5px solid red;
+            display: flex;
+           /* flex-direction: row-reverse; */
+           flex-direction: column;
+           /* flex-direction: column; */
+           /* flex-direction: column-reverse; */
+           /* flex-wrap: wrap; */
+           /* flex-wrap: wrap-reverse; */
+           /* justify-content: center; */
+           /* justify-content: space-between; */
+           justify-content: space-around;
+           /* align-items: center; */
+          /* align-items: flex-end; */
+          align-items: flex-start;
+        }
+
+        .item {
+           border:4px solid black;
+            background-color: rgb(17, 143, 101);
+            margin: 5px;
+            padding: 5px;
+            height: 400px;
+            width: 400px;
+        }
+        #item1{
+            order: 50;
+            flex-grow: 3;
+            color: gold;
+        }
+         #item2{
+            order: 49;
+            /* flex-grow: 5; */
+            flex-shrink:3 ;
+            color: crimson;
+        }
+         #item3{
+            order: 48;
+            flex-basis: 400px;
+            align-self: flex-end;
+            color: chocolate;
+        }
+         #item4{
+            order: 47;
+            align-self: flex-start;
+            color: blue;
+        }
+         #item5{
+            order: 46;
+            color: blueviolet;
+        }
+         #item6{
+            order: 45;
+            color: rgb(70, 131, 12);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="item1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat aperiam impedit vero, cupiditate, asperiores adipisci ullam autem, sequi itaque tempora eligendi. Itaque quas consequatur nam eligendi ipsam, expedita asperiores illo!</div>
+        <div class="item" id="item2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum obcaecati cumque nulla illum reiciendis autem beatae a placeat. Sit distinctio debitis cumque, vitae tempore ex blanditiis voluptatum voluptas doloremque reiciendis?</div>
+        <div class="item" id="item3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum rem officia sequi, optio natus qui debitis consequatur! Alias, tempore rem nobis dolorum, ipsa eveniet maxime consectetur laboriosam voluptates temporibus voluptatum!</div>
+        <div class="item" id="item4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint dolorem, hic ullam autem veniam quos obcaecati nostrum excepturi atque sequi qui sit recusandae non maiores explicabo eius libero nisi.</div>
+        <div class="item" id="item5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum totam, enim beatae blanditiis deleniti quasi vitae, libero ab, nisi molestias tenetur porro maiores fugiat voluptate temporibus. Necessitatibus vel commodi blanditiis.</div>
+        <div class="item" id="item6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorum laboriosam eveniet praesentium perferendis magnam inventore! Praesentium perspiciatis vel, alias magni aliquam laboriosam ipsam, quo enim laudantium commodi a odio.</div>
+    </div>
+
+</body>
+
+</html>
